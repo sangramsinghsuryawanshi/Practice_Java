@@ -1,5 +1,5 @@
 import java.util.*;
-public class FindSmallestNumMissingFromArray
+public class FindMissingFromArray
 {
 	public static void main(String[]ar)
 	{
@@ -9,17 +9,15 @@ public class FindSmallestNumMissingFromArray
 		System.out.println("\n-----------------------------");
 		int a[]=new int[size-1];
 		System.out.print("Enter array element:");
+		int s=0;
 		for(int i=0;i<a.length;i++)
 		{
-			a[i]=sc.nextInt();
+			if(i!=a[i])
+			{
+				s=i;
+				break;
+			}
 		}
-		int sum=0;
-		for(int i=0;i<a.length;i++)
-		{
-			if(size>
-			sum+=a[i];
-		}
-		int total=size*(size+1)/2;
-		System.out.print((total-sum)+" ");
+		System.out.print(s+" ");
 	}
 }
