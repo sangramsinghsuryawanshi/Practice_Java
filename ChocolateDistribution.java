@@ -28,7 +28,7 @@ public class ChocolateDistribution {
 
         int c[] = {12, 4, 7, 9, 2, 23, 25, 41, 30, 40, 28, 42, 30, 44, 48, 43, 50};
         int n = 7;
-  
+
         System.out.println("Test one: Minimum Difference is " + findMinDifference(a, l));
         System.out.println("Test two: Minimum Difference is " + findMinDifference(b, m));
         System.out.println("Test three: Minimum Difference is " + findMinDifference(c, n));
