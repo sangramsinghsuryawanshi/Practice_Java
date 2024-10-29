@@ -11,7 +11,7 @@ Copy code
 1234
 12345
 */
-CLASS PatternPrinting
+class PatternPrinting
 {
 	public static void isPP(int n)throws Exception
 	{
