@@ -9,6 +9,7 @@ PV = Present Value (initial investment)
 r = Annual interest rate (in decimal)
 n = Number of years
 */
+
 import java.util.Scanner;
 public class FutInv
 {
