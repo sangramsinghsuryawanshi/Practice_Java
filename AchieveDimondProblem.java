@@ -15,7 +15,7 @@ class AchieveDimondProblem implements B
 	}
 	public void hi()
 	{
-		System.out.println("Hi, raj suryawanshi");
+		System.out.println("Hello, raj suryawanshi");
 	}
 	public static void main(String[]ar)
 	{
