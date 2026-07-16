@@ -40,10 +40,10 @@ public class MethodOverriding
 {
 	public static void main(String[]ar)
 	{
-		Animal animal = new Dog(); // loos coupling
+		Animal animal = new Dog(); // loose coupling complie time polymorphism
 		animal.sound();
 
-		Animal ani = new Cat();
+		Animal ani = new Cat(); // loose coupling complie time polymorphism
 		ani.sound();
 	}
 }
