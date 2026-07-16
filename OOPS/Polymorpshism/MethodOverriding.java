@@ -40,7 +40,7 @@ public class MethodOverriding
 {
 	public static void main(String[]ar)
 	{
-		Animal animal = new Dog();
+		Animal animal = new Dog(); // loos coupling
 		animal.sound();
 
 		Animal ani = new Cat();
