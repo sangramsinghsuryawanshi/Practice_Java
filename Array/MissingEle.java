@@ -30,8 +30,9 @@ public class MissingEle
 		{
 			sum+=a[i];
 		}
-		int n = a.length+1;
+		int n = a.length;
 		int exp =(n*(n+1)/2);
+		System.out.println("Missing ele: "+n+" "+sum);
 		System.out.println("Missing ele: "+(exp - sum));
 	}
 }
